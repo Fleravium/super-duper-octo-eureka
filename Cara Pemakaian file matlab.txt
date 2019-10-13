@@ -1,0 +1,9 @@
+1. Buka Matlab
+2. Ketik Simulink di command window
+3. Pencet tombol Open... di simulink untuk membuka file Motor_Model.slx
+4. Ketik nilai parameter di command window untuk memberikan nilai pada variabel dalam model. (e.g. b = 0.5;)
+5. Klik kanan mouse pada panah yang menghubungkan In1 dengan DC motor. Kemudian arahkan ke option Linear-analysis point. Setelah itu pencet open-loop Input
+6. Klik kanan mouse pada panah yang menghubungkan Out1 dengan DC motor. Kemudian arahkan ke option Linear-analysis point. Setelah itu pencet closed-loop Input
+7. Buka tab Analysis, kemudian arahkan mouse ke Control Design... Setelah itu klik Linear Analysis. Hal ini dilakukan untuk membuka Linear Analysis Tool
+8. Setelah window Linear Analysis terbuka, Click Step untuk mengplot data output.
+9. Selesai! Nilai variabel dapat divariasikan dengan mengubah nilainya pada command window.
